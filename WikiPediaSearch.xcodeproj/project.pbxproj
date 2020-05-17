@@ -12,6 +12,7 @@
 		33812F982471172B000CE5A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33812F962471172B000CE5A2 /* Main.storyboard */; };
 		33812F9A2471172D000CE5A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33812F992471172D000CE5A2 /* Assets.xcassets */; };
 		33812F9D2471172D000CE5A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33812F9B2471172D000CE5A2 /* LaunchScreen.storyboard */; };
+		33812FA7247119E0000CE5A2 /* WikiPediaSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33812FA6247119E0000CE5A2 /* WikiPediaSearchViewController.swift */; };
 		FA2602C62B6600D000730A62 /* Pods_WikiPediaSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A437ACEF9735FF23467EE5B /* Pods_WikiPediaSearch.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		33812F992471172D000CE5A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33812F9C2471172D000CE5A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33812F9E2471172D000CE5A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33812FA6247119E0000CE5A2 /* WikiPediaSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiPediaSearchViewController.swift; sourceTree = "<group>"; };
 		3A437ACEF9735FF23467EE5B /* Pods_WikiPediaSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WikiPediaSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7255A69045B0A5CD87A01667 /* Pods-WikiPediaSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WikiPediaSearch.debug.xcconfig"; path = "Target Support Files/Pods-WikiPediaSearch/Pods-WikiPediaSearch.debug.xcconfig"; sourceTree = "<group>"; };
 		9212CCFB451CC1E3FD1C3A43 /* Pods-WikiPediaSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WikiPediaSearch.release.xcconfig"; path = "Target Support Files/Pods-WikiPediaSearch/Pods-WikiPediaSearch.release.xcconfig"; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 			children = (
 				33812F902471172B000CE5A2 /* AppDelegate.swift */,
 				33812F922471172B000CE5A2 /* SceneDelegate.swift */,
+				33812FA6247119E0000CE5A2 /* WikiPediaSearchViewController.swift */,
 				33812F962471172B000CE5A2 /* Main.storyboard */,
 				33812F992471172D000CE5A2 /* Assets.xcassets */,
 				33812F9B2471172D000CE5A2 /* LaunchScreen.storyboard */,
@@ -204,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33812F912471172B000CE5A2 /* AppDelegate.swift in Sources */,
+				33812FA7247119E0000CE5A2 /* WikiPediaSearchViewController.swift in Sources */,
 				33812F932471172B000CE5A2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
