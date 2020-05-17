@@ -6,5 +6,8 @@ target 'WikiPediaSearch' do
   use_frameworks!
 
   # Pods for WikiPediaSearch
+  pod 'ReactorKit'
+  pod 'RxSwift', '~> 5.0'
+  pod 'RxCocoa', '~> 5.0'
 
 end
